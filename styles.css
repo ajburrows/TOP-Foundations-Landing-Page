@@ -1,0 +1,58 @@
+
+body{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.section-container {
+    background-color: plum;
+    border: 4px solid indigo;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    margin: 0px;
+    border: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header-section, .title-section, .info-section, .quote-section, .cta-section, .footer-section {
+    width: 100%;
+    border: 4px solid darkslategray;
+    background: skyblue;
+}
+
+.header-section{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-section-left, .header-section-right{
+    width: 50%;
+    border: 2px solid darkgray;
+    background: lightgreen;
+    display:flex
+}
+
+.header-section-right{
+    justify-content: center;
+}
+
+
+.header-link, .header-logo{
+    background-color: lightcoral;
+}
+
+.header-link {
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.header-logo {
+    margin-left: 15%;
+    font-weight: bold;
+    font-size: 28px;
+}
