@@ -118,3 +118,49 @@ body{
     font-weight: bold;
     border-radius: 4px;
 }
+
+
+/* --------------------------- STYLING INFO SECTION -------------------------- */
+.info-section {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    padding: 25px;
+}
+
+.info-section-title, .info-section-content-container{
+    display: flex;
+    justify-content: center;
+    background-color: lightgreen;
+    border: 4px solid lightgray;
+}
+
+.info-section-title {
+    height: 25%;
+}
+
+.info-section-content-container{
+    width: 50%;
+    height: 75%;
+}
+
+.info-image-text-container{
+    background-color: lightcoral;
+    border: solid darkgray;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-image {
+    border: solid darkmagenta;
+    background-color: lightpink;
+    height: 100px;
+    width: 100px;
+    margin: 10%;
+}
+
+.info-image-caption{
+    text-align: center;
+    margin-top: 0px;
+}
