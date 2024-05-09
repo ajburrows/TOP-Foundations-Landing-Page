@@ -63,6 +63,10 @@ body{
 
 /*--------------- Title Section -------------------------------*/
 
+.title-section {
+    padding: 25px 0px 50px 0px;
+}
+
 .title-section-content-container {
     border: 4px darkslategray;
     background-color: lightgreen;
@@ -185,4 +189,46 @@ body{
 .quote-credit {
     text-align: end;
     margin-right: 50px;
+}
+
+/* ------------------- STYLING CTA SECTION -------------------------- */
+.cta-section{
+    padding: 75px 0px 75px 0px;
+}
+
+.cta-box {
+    border: solid lightgray;
+    background-color: lightgreen;
+    width: 60%;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px 0px 25px 0px;
+    border-radius: 10px;
+}
+
+.cta-text-container {
+    border: solid darkmagenta;
+    background-color: lightcoral;
+    width: 50%;
+}
+
+.cta-text, .cta-subtext {
+    margin: 0px;
+}
+
+.cta-button-container {
+    border: solid darkmagenta;
+    background-color: lightcoral;
+    display:flex;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    align-items: center;
+}
+
+.cta-button {
+    height: 50%;
+    width: 100%;
+    border-radius: 8px;
 }
