@@ -125,7 +125,7 @@ body{
     flex-direction: column;
     align-items: center;
     display: flex;
-    padding: 25px;
+    padding-bottom: 25px;
 }
 
 .info-section-title, .info-section-content-container{
@@ -158,9 +158,31 @@ body{
     height: 100px;
     width: 100px;
     margin: 10%;
+    border-radius: 10px;
 }
 
 .info-image-caption{
     text-align: center;
     margin-top: 0px;
+}
+
+/* --------------- QUOTE SECTION STYLING ------------------ */
+
+.quote-section {
+    padding: 50px 0px 50px 0px;
+}
+
+.quote-container {
+    border: solid lightgray;
+    background: lightgreen;
+    height: 50%;
+    width: 50%;
+}
+
+.quote {
+    margin-left: 10px;
+}
+.quote-credit {
+    text-align: end;
+    margin-right: 50px;
 }
