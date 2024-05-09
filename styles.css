@@ -7,14 +7,14 @@ body{
 
 /* ------------------- FONT STYLES ---------------- */
 .hero-main-text, .header-logo-text, .hero-secondary-text, .button-text, .info-header-text, .quote-text,
-.quote-credit-text
+.quote-credit-text, .cta-text, .cta-subtext, .copyright-text
 {
     font-family: sans-serif;
 }
 .hero-main-text {
     font-size: 48px;
     font-weight: 800;
-    color: #f9faf8;
+    color: #F9FAF8;
     margin-bottom: 0px;
 }
 
@@ -66,6 +66,20 @@ body{
     color: rgb(78, 78, 78);
     width: 125px;
 }
+
+.cta-text, .cta-subtext {
+    margin: 0px;
+    color: #F9FAF8;
+}
+
+.cta-text {
+    font-size: 18px;
+}
+
+.copyright-text {
+    color: #F9FAF8;
+}
+
 
 /* ------------------- STYLING SECTION DIVS -------------------------- */
 
@@ -240,8 +254,8 @@ body{
 }
 
 .cta-box {
-    border: solid lightgray;
-    background-color: lightgreen;
+    border: 0px;
+    background-color: #3882F6;
     width: 60%;
     height: 50%;
     display: flex;
@@ -251,18 +265,13 @@ body{
 }
 
 .cta-text-container {
-    border: solid darkmagenta;
-    background-color: lightcoral;
+    border: 0px;
+    background-color: #3882F6;
     width: 50%;
 }
 
-.cta-text, .cta-subtext {
-    margin: 0px;
-}
-
 .cta-button-container {
-    border: solid darkmagenta;
-    background-color: lightcoral;
+    background-color: #3882F6;
     display:flex;
     justify-content: center;
     width: 15%;
@@ -271,7 +280,19 @@ body{
 }
 
 .cta-button {
-    height: 50%;
-    width: 100%;
+    height: 60%;
+    width: 90%;
     border-radius: 8px;
+    border: solid 2px #F9FAF8;
+}
+
+.cta-button.button-text{
+    font-size: 16px;
+    font-weight: 800;
+}
+
+/* ---------------------- STYLING FOOTER SECTION ----------------------- */
+.footer-section {
+    background-color: #1F2937;
+    padding: 25px;
 }
